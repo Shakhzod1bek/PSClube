@@ -10,11 +10,15 @@
       font-family: Arial, sans-serif;
       margin: 0 auto;
       padding-top: 15px;
-      width: 450px;
+      width: 750px;
       max-width: 100%;
       display: flex;
       text-align: center;
-      background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+      background: linear-gradient(150deg,
+          #000000 0%,
+          #ff0000 23%,
+          #f07070 10%);
+
     }
 
     #pasdagi {
@@ -34,7 +38,18 @@
     }
 
     p {
-      font-size: 24px;
+      font-size: 45px;
+      margin: 45px 0;
+      font-weight: 700;
+      transform: scaleY(1.7);
+    }
+
+    h3 {
+      font-weight: 800;
+      font-size: 45px;
+      margin: 10px 0 0 0;
+      transform: scaleY(1.6);
+      display: inline-block;
     }
 
     /* === HISOBOT TAB === */
@@ -110,10 +125,12 @@
     }
 
     .timer {
-      background: #fff;
+      background: #bdbdbd8c;
       padding: 15px;
-      width: 360px;
+      width: 550px;
+      height: 1040px;
       border-radius: 16px;
+      margin: 2rem 0;
       box-shadow: 0 8px 20px rgba(13, 71, 161, 0.15);
       border-top: 6px solid #1976d2;
     }
@@ -140,14 +157,13 @@
 
     button {
       width: 100%;
-      height: 4.5rem;
+      height: 6rem;
       margin-top: 6px;
-      padding: 10px;
-      border: none;
       border-radius: 8px;
-      cursor: pointer;
       font-size: 36px;
       font-weight: 800;
+      border: none;
+      cursor: pointer;
     }
 
     .tarif-btn {
@@ -197,9 +213,9 @@
       <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
       <p>Summa: <span class="cost">0</span> so'm</p>
 
-      <button class="tarif-btn" onclick="setTarif(this,15000)">2 ta pult</button>
-      <button class="tarif-btn" onclick="setTarif(this,18000)">3 ta pult</button>
-      <button class="tarif-btn" onclick="setTarif(this,20000)">4 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
 
       <button class="start-btn" onclick="startTimer(this)">Start</button>
       <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
@@ -213,9 +229,9 @@
       <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
       <p>Summa: <span class="cost">0</span> so'm</p>
 
-      <button class="tarif-btn" onclick="setTarif(this,15000)">2 ta pult</button>
-      <button class="tarif-btn" onclick="setTarif(this,18000)">3 ta pult</button>
-      <button class="tarif-btn" onclick="setTarif(this,20000)">4 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
 
       <button class="start-btn" onclick="startTimer(this)">Start</button>
       <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
@@ -229,7 +245,7 @@
       <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
       <p>Summa: <span class="cost">0</span> so'm</p>
 
-      <button class="tarif-btn" onclick="setTarif(this,15000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,1411114000)">2 ta pult</button>
       <button class="tarif-btn" onclick="setTarif(this,18000)">3 ta pult</button>
       <button class="tarif-btn" onclick="setTarif(this,20000)">4 ta pult</button>
 
@@ -237,6 +253,89 @@
       <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
       <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
     </div>
+
+    <div class="timer" data-stol="4-Stol">
+      <h3>3-Stol</h3>
+      <p>Vaqt: <span class="time">00:00:00:000</span></p>
+      <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
+      <p>Summa: <span class="cost">0</span> so'm</p>
+
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
+
+      <button class="start-btn" onclick="startTimer(this)">Start</button>
+      <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
+      <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
+    </div>
+
+
+    <div class="timer" data-stol="5-Stol">
+      <h3>3-Stol</h3>
+      <p>Vaqt: <span class="time">00:00:00:000</span></p>
+      <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
+      <p>Summa: <span class="cost">0</span> so'm</p>
+
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
+
+
+      <button class="start-btn" onclick="startTimer(this)">Start</button>
+      <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
+      <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
+    </div>
+
+    <div class="timer" data-stol="6-Stol">
+      <h3>3-Stol</h3>
+      <p>Vaqt: <span class="time">00:00:00:000</span></p>
+      <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
+      <p>Summa: <span class="cost">0</span> so'm</p>
+
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
+
+
+      <button class="start-btn" onclick="startTimer(this)">Start</button>
+      <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
+      <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
+    </div>
+
+
+    <div class="timer" data-stol="7-Stol">
+      <h3>3-Stol</h3>
+      <p>Vaqt: <span class="time">00:00:00:000</span></p>
+      <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
+      <p>Summa: <span class="cost">0</span> so'm</p>
+
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
+
+
+      <button class="start-btn" onclick="startTimer(this)">Start</button>
+      <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
+      <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
+    </div>
+
+
+    <div class="timer" data-stol="8-Stol">
+      <h3>3-Stol</h3>
+      <p>Vaqt: <span class="time">00:00:00:000</span></p>
+      <p>Tarif: <span class="current-tarif">Tanlanmagan</span></p>
+      <p>Summa: <span class="cost">0</span> so'm</p>
+
+      <button class="tarif-btn" onclick="setTarif(this,20000)">2 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,24000)">3 ta pult</button>
+      <button class="tarif-btn" onclick="setTarif(this,25000)">4 ta pult</button>
+
+
+      <button class="start-btn" onclick="startTimer(this)">Start</button>
+      <button class="stop-btn" onclick="stopTimer(this)">Stop</button>
+      <button class="reset-btn" onclick="resetTimer(this)">Reset</button>
+    </div>
+
   </div>
 
   <!-- OPEN LOG BUTTON -->
